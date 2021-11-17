@@ -1,0 +1,23 @@
+
+
+
+<div class="container-places">
+
+  <a href="/" class="back-places">Back</a>
+<h1>Places</h1>
+
+<div class="places-list">
+  {{#each allplaces}}
+    <div class="card-place">
+      <p><strong>Name:</strong> {{name}}</p>
+      <p><strong>Type:</strong> {{type}}</p>
+      <a href="/places/{{id}}/delete">Delete Place</a>
+      <a href="/places/{{id}}/edit">Edit Place</a>
+      <a href="/places/{{id}}/details">Details</a>
+    </div>
+  {{/each}}
+</div>
+
+<a href="/show-map" class="showmap-button">Show map</a>
+
+</div>

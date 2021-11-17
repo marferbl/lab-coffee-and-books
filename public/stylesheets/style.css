@@ -1,6 +1,11 @@
 body {
-  padding: 50px;
+background-image: url("https://i.pinimg.com/originals/77/cf/1f/77cf1f6c8a59750ea178f235acb89e3e.jpg");
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
 }
 
 a {
@@ -9,4 +14,180 @@ a {
 
 h1 {
   color: 15px;
+}
+.places-list {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+.card-place {
+  border: 1px solid black;
+  margin: 20px 0;
+  width: 500px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 22px;
+  border-radius: 35px;
+}
+
+.link-index {
+  text-decoration: none;
+  border: 1px solid rgb(0, 0, 0);
+  color: #090c0e;
+  border-radius: 20px;
+  padding: 5px;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  margin: 5px;
+  background-color: #00b7ff80;
+}
+.container-map{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#map {
+  margin-top: 20px;
+  width: 900px;
+  height: 600px;
+  
+}
+
+.container-index{
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.index-main{
+  background-color: rgba(240, 248, 255, 0.801);
+  padding-bottom: 2.5rem;
+  border-radius: 20px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-places{
+height: 95vh;
+width: 70%;
+
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(232, 241, 241, 0.781);
+  position: relative;
+}
+
+.container-places h1{
+  font-family: Poppins;
+  font-size: 2.5rem;
+}
+.places-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: Poppins;
+}
+
+.container-places a{
+  font-size: 1.3rem;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #935526;
+
+}
+.container-places a:hover{
+ font-size: 1.32rem;
+ color: black;
+
+}
+.back-places{
+  position: absolute;
+  top: 50;
+  left: 50;
+  text-decoration: none;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+.showmap-button{
+  text-decoration: none;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #935526a2;
+  
+}
+
+.edit-container{
+  background-color:rgb(232, 241, 241); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.form-edit{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-family:Poppins;
+   position: relative;
+  
+}
+
+.edit-container h2{
+  font-family: Poppins;
+ 
+}
+
+.edit-container input{
+  height: 30px;
+  border-radius: 30px;
+  font-family: Poppins;
+}
+.submit{
+  font-family: Poppins;
+  
+}
+
+.back-edit{
+  text-decoration: none;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  
+  margin: 20px;
+}
+
+.details-container {
+  background-color:rgb(232, 241, 241);  
+  padding: 20px;
+  border-radius: 15px;
+  font-family: Poppins;
+  font-size: 1.6rem;
 }

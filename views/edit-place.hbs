@@ -1,0 +1,39 @@
+
+<div class="edit-container">
+    <a href="/places" class="back-edit">Back</a>
+  
+  <h2>Edit Place</h2>
+  <hr />
+
+ 
+
+    <div class="form-edit"> 
+    
+
+      <div class="form-edit-fields">
+  <form action="/places/{{id}}" method="POST">
+    <label>
+      Name:
+      <input type="text" name="name" value="{{name}}" />
+
+    </label>
+
+    <label>
+      Type:
+      <input type="text" name="type" value="{{type}}" />
+
+    </label>
+
+    <label>
+      Adress:
+      <input type="text" name="lat" value="{{lat}}" />
+      <input type="text" name="lng" value=""/>
+
+    </label>
+    <input type="submit" class="submit" />
+
+  </form>
+  </div>
+  </div>
+  </div>
+  
